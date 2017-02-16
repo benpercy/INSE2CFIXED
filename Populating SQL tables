@@ -1,0 +1,46 @@
+insert into Account (idAccount, AccountName, AccountCredit) values (1, 'rlynch0', '£127.38');
+insert into Account (idAccount, AccountName, AccountCredit) values (2, 'lbryant1', '£82.87');
+insert into Account (idAccount, AccountName, AccountCredit) values (3, 'tgray2', '£60.11');
+insert into Account (idAccount, AccountName, AccountCredit) values (4, 'jblack3', '£244.08');
+insert into Account (idAccount, AccountName, AccountCredit) values (5, 'jcarroll4', '£163.63');
+insert into Account (idAccount, AccountName, AccountCredit) values (6, 'sstewart5', '£82.77');
+insert into Account (idAccount, AccountName, AccountCredit) values (7, 'kwelch6', '£173.58');
+insert into Account (idAccount, AccountName, AccountCredit) values (8, 'amontgomery7', '£255.18');
+insert into Account (idAccount, AccountName, AccountCredit) values (9, 'rruiz8', '£155.08');
+insert into Account (idAccount, AccountName, AccountCredit) values (10, 'emontgomery9', '£234.20');
+
+
+insert into Customer (idCustomer, Title, FirstName, LastName, EmailAddress, Address, Postcode, Username, Password, RepeatPassword) values (1, 'Ms', 'Amanda', 'Stevens', 'astevens0@newyorker.com', '6486 Miller Trail', 'sw14 9jk', 'astevens0', 'XTL6GO11OhQ', 'vCdTmW6son');
+insert into Customer (idCustomer, Title, FirstName, LastName, EmailAddress, Address, Postcode, Username, Password, RepeatPassword) values (2, 'Honorable', 'Harold', 'Bradley', 'hbradley1@is.gd', '25 Holy Cross Parkway', 'w15 2kl', 'hbradley1', '4IrMvNO8F', '0J2VsZniKP');
+insert into Customer (idCustomer, Title, FirstName, LastName, EmailAddress, Address, Postcode, Username, Password, RepeatPassword) values (3, 'Mrs', 'James', 'Hall', 'jhall2@woothemes.com', '12 Badeau Plaza', 'e14 9hq', 'jhall2', '25WKAs8', '3ifPiPcxDV');
+insert into Customer (idCustomer, Title, FirstName, LastName, EmailAddress, Address, Postcode, Username, Password, RepeatPassword) values (4, 'Rev', 'Christina', 'Dunn', 'cdunn3@xrea.com', '9 Manley Circle', 'se18 7hf', 'cdunn3', '5SK7HFRe', 'IGbIWY6bCKX');
+insert into Customer (idCustomer, Title, FirstName, LastName, EmailAddress, Address, Postcode, Username, Password, RepeatPassword) values (5, 'Mrs', 'Alice', 'Evans', 'aevans4@smugmug.com', '6 Bartillon Avenue', 'e15 8ol', 'aevans4', 'yMq2Uf', '1QQvdTSbnq');
+insert into Customer (idCustomer, Title, FirstName, LastName, EmailAddress, Address, Postcode, Username, Password, RepeatPassword) values (6, 'Dr', 'Edward', 'Watkins', 'ewatkins5@mashable.com', '97900 Cardinal Plaza', 'w19 9hj', 'ewatkins5', 'ZH9vtivT', 'FAtTmL');
+insert into Customer (idCustomer, Title, FirstName, LastName, EmailAddress, Address, Postcode, Username, Password, RepeatPassword) values (7, 'Mrs', 'Barbara', 'Allen', 'ballen6@yolasite.com', '9 Hollow Ridge Avenue', 'n15 6yt', 'ballen6', 'uDHMLD7Xt', 'ou3gPs');
+insert into Customer (idCustomer, Title, FirstName, LastName, EmailAddress, Address, Postcode, Username, Password, RepeatPassword) values (8, 'Dr', 'Gloria', 'Anderson', 'ganderson7@cbsnews.com', '24 Gale Drive', 'cr0 1uy', 'ganderson7', 'p6quLqdJE', 'SRVzIDhiT46h');
+insert into Customer (idCustomer, Title, FirstName, LastName, EmailAddress, Address, Postcode, Username, Password, RepeatPassword) values (9, 'Ms', 'Clarence', 'Palmer', 'cpalmer8@newyorker.com', '57303 Lakewood Gardens Hill', 'me14 7hr', 'cpalmer8', 'AAYCaXVDQQQd', 'BVwhp9k0kjSZ');
+insert into Customer (idCustomer, Title, FirstName, LastName, EmailAddress, Address, Postcode, Username, Password, RepeatPassword) values (10, 'Rev', 'Carlos', 'Daniels', 'cdaniels9@sohu.com', '4 Rigney Alley', '96900-000', 'po6 9iq', 'jfjcphJo', 'g2iPIlK');
+
+
+insert into Status (idStatus, Status, DeliveryDate, DeliveryTime) values (1, 'Shipped', '16/08/2017', '6:31 PM);
+insert into Status (idStatus, Status, DeliveryDate, DeliveryTime) values (2, 'Shipped', '08/07/2017', '5:50 PM');
+insert into Status (idStatus, Status, DeliveryDate, DeliveryTime) values (3, 'Not Shipped', '21/09/2017', '12:49 PM');
+insert into Status (idStatus, Status, DeliveryDate, DeliveryTime) values (4, 'Shipped', '28/02/2017', '8:40 PM');
+insert into Status (idStatus, Status, DeliveryDate, DeliveryTime) values (5, 'Not Shipped', '24/05/2017', '11:07 AM');
+insert into Status (idStatus, Status, DeliveryDate, DeliveryTime) values (6, 'Shipped', '06/03/2017', '9:43 AM');
+insert into Status (idStatus, Status, DeliveryDate, DeliveryTime) values (7, 'Not Shipped', '20/02/2017', '4:46 PM');
+insert into Status (idStatus, Status, DeliveryDate, DeliveryTime) values (8, 'Not Shipped', '08/07/2017', '10:59 PM');
+insert into Status (idStatus, Status, DeliveryDate, DeliveryTime) values (9, 'Shipped', '27/04/2017', '1:01 PM');
+insert into Status (idStatus, Status, DeliveryDate, DeliveryTime) values (10, 'Shipped', '07/06/2017', '11:38 AM');
+
+
+insert into Product (idProduct, ProductName, ProductDescription, Category, Price, Quantity) values (1,'Silk Shirt', 'A beautiful Silk Shirt for evening wear', 'Shirts and Tops', '£46.53', 10);
+insert into Product (idProduct, ProductName, ProductDescription, Category, Price, Quantity) values (2, 'Double Pocket Jeans', 'Double pocket jeans for everyday outings', 'Jeans', '£35.61', 9);
+insert into Product (idProduct, ProductName, ProductDescription, Category, Price, Quantity) values (3, 'Knitted Cardigan', 'Pocket-less Cardigan', 'Cardigans and Jumpers', '£14.36', 4);
+insert into Product (idProduct, ProductName, ProductDescription, Category, Price, Quantity) values (4, 'Pearl-Knit Jumper', 'Baby pink off the shoulder Jumper', 'Cardigans and Jumpers', '£17.09', 7);
+insert into Product (idProduct, ProductName, ProductDescription, Category, Price, Quantity) values (5, 'Skater Dress', 'Body con dress that flares', 'Dresses', '£27.86', 4);
+insert into Product (idProduct, ProductName, ProductDescription, Category, Price, Quantity) values (6, 'Jeggings', 'Inbetween Jeans and leggings ', 'Bottoms', '£31.97', 1);
+insert into Product (idProduct, ProductName, ProductDescription, Category, Price, Quantity) values (7, 'Mens Sweatsuit', 'Matching hoody and bottoms set', 'Sets', '£33.74', 1);
+insert into Product (idProduct, ProductName, ProductDescription, Category, Price, Quantity) values (8, 'Sweetheart Neckline Dress', 'A beautiful dress exaggerating your collerbones', 'Dresses', '£44.73', 5);
+insert into Product (idProduct, ProductName, ProductDescription, Category, Price, Quantity) values (9, 'Monday-Sunday socks', 'Socks for everyday of the week', 'Underwear', '£6.85', 10);
+insert into Product (idProduct, ProductName, ProductDescription, Category, Price, Quantity) values (10, 'Jogging Bottoms', 'For a quick run', 'Bottoms', '£28.85', 7);
