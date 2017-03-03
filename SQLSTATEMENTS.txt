@@ -1,0 +1,8 @@
+Checking if account already exists for registration.
+SELECT * FROM user WHERE user_uname=? OR user_email=?
+
+
+Creating a new user
+INSERT INTO user(user_title, user_fname, user_lname, user_email, user_uname, user_password, user_credit) VALUES(?, ?, ?, ?, ?, ?, 0.00)
+
+Adding account credit

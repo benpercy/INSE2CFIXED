@@ -1,2 +1,2 @@
-# INSE2CFIXED
-Old repository got messed up so I made another..
+# INSEC2
+Introduction to Software Engineering Java Coursework
