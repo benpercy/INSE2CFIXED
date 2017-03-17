@@ -1,19 +1,36 @@
 <?php
-session_start();
+  include 'header.php';
+ ?>
+        <article>
+          <form action="includes/signup.inc.php" method="POST">
+            <input type="text" name="title" placeholder="Title"><br>
+            <input type="text" name="first" placeholder="Firstname"><br>
+            <input type="text" name="last" placeholder="Lastname"><br>
+            <input type="text" name="email" placeholder="Email"><br>
+            <input type="text" name="firstAdd" placeholder="FirstAdd"><br>
+            <input type="text" name="post" placeholder="Postcode"><br>
+            <input type="text" name="username" placeholder="Username"><br>
+            <input type="password" name="pass" placeholder="Password"><br>
+            <button type ="submit">Register</button>
 
-include 'dbh.php';
+          </form>
+        </article>
+    </section>
 
-$title = $_POST['title'];
-$first = $_POST['first'];
-$last = $_POST['last'];
-$email = $_POST['email'];
-$firstAdd = $_POST['firstAdd'];
-$post = $_POST['post'];
-$username = $_POST['username'];
-$pass = $_POST['pass'];
+<?php
+if (isset($_SESSION['id'])) {
+  echo $_SESSION['id'];
+} else {
+  echo "You are not logged in";
+}
+?>
 
-$sql = "INSERT INTO customer (Title, FirstName, LastName, 	EmailAddress, Address, 	Postcode, Username, Password) VALUES ('$title', '$first', '$last', '$email', '$firstAdd', '$post', '$username', '$pass')";
+    <footer>
+        <small>&copy; Copyright 2017. Group 2C - Designed & produced by 773455.</small>
+    </footer>
 
-$result = mysqli_query($conn, $sql);
 
-header("Location: signup.php");
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
