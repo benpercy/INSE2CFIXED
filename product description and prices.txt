@@ -1,0 +1,42 @@
+Female dress 1 - White and brown patterned midi length dress. £18.99
+Female dress (two pieces) - Grey two piece dress, pencil skirt. £30.00
+Female dress 2 - Stripped dress, pink, white, blue. £10.00
+Female dress 3 - Plane medium lengthed dress. Available in white and pink. £13.99
+Female dress 4 - Red party dress. £15.99
+Female dress 5 - Black lacey party dress. £25.00
+Female dress 6 - Black and white stripped dress. £20.00
+Female dress 7 - Maroon/purple midi prom dress. £40.00
+Female dress 8 - Black midi lacey informal dress. £20.99
+Female hoodie 1 - Army green hoodie - £8.50
+Female jacket 1 - Black suede jacket - £9.99
+Female jacket 2 - Grey formal jacket - £20.50
+Female shirt 1 - Light blue aztec shirt - £10.00
+Female shirt 2 - Colour patterend shirt - £10.99
+Female shirt 3 - Flower patterned white and grey shirt - £10.99
+Female shirt 4 - Pink flower design black shirt - £11.99
+Female suit 1 - Navy blue womens suit - £35.99
+Female sweatshirt 1 - White and red striped sweatshirt - £12.50
+Female tshirt 1 - Flower design white tshirt - £7.50
+Female tshirt 3 - Blue tank top - £5.50
+Female tshirt 4 - Pink designed short sleeve tshirt - £8.00
+Male cardigan 1 - Grey male cardigan - £25.00
+Male jacket 1 - Brown male jacket - £30.00
+Male long sleeve 1 - Grey long sleeve tshirt - £10.00
+Male long sleeve 2 - Light grey long sleeve tshirt - £9.50
+Male long sleeve 3 - Black with designs on the sleeves - £11.99
+Male long sleeve 4 - Navy blue long sleeve tshirt - £10.99
+Male polo - Grey polo with pocket - £15.99
+Male shirt 1 - White with black strips shirt - £35.99
+Male shirt 2 - Black with white strips shirt - £35.99
+Male shirt 3 - Plain white shirt - £20.00
+Male shirt 4 - Blue checkered shirt - £30.00
+Male sweatshirt 1 - Red sweatshirt with a hoodie - £23.99
+Male sweatshirt 2 - Grey stripped sweatshirt - £20.99
+Male sweatshirt 3 - Blue/white aztec design sweatshirt - £17.99
+Male tshirt 1 - White/blue tshirt - £9.99
+Male tshirt 2 - Grey plain tshirt - £5.99
+Male tshirt 3 - Navyy blue tshirt - £6.99
+Male tshirt 4 - Light blue plain tshirt - £5.99
+Male tshirt 5 - Green stripped tshirt - £6.99
+Male tshirt 5 - Grey USA tshirt - £7.99
+
