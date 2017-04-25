@@ -2,7 +2,9 @@
   include 'header.php';
  ?>
 
-
+<head>
+    <link rel="css/main.css" type="text/css" href="main.css">
+</head>
 <h1>this is the index page</h1>
 
 <?php
