@@ -14,12 +14,24 @@ if (isset($_SESSION['id'])) {
 ?>
 
 
-  <container class="images">
+  <table class="images">
+    <tr>
+      <td>
       <img src="images/Female dress 1.jpg" alt="Home1" style="width:304px;height:228px;"/>
+      </td>
+      <td>
       <img src= "images/Female dress 2.jpg" alt="Home2" style="width:304px;height:228px;"/>
+      </td>
+      </tr>
+      <tr>
+      <td>
       <img src="images/Male polo.jpg" alt="Home3" style="width:304px;height:228px;"/>
+      </td>
+      <td>
       <img src="images/Male shirt1.jpg" alt="Home4" style="width:304px;height:228px;"/>
-  </container>
+      </td>
+      </tr>
+  </table>
 
 
 
