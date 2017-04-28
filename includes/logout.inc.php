@@ -1,5 +1,7 @@
 <?php
+//Starts a new session
 session_start();
+//Destroys current session
 session_destroy();
-
-header("Location: ../signup.php");
+//Redirects the user to the index page
+header("Location: ../index.php");

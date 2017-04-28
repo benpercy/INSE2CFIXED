@@ -1,7 +1,7 @@
 <?php
   include 'header.php';
  ?>
-
+<!-- Table used to store product images and discriptions.-->
 <table class="images">
       <tr>
 	<td>
