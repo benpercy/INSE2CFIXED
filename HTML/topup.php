@@ -7,6 +7,7 @@
 </head>
 
 
+<div style="width: 300px; margin: 0 auto;">
 <article>
   <form action="includes/topup.inc.php" class="topupTable" method="POST">
     <input type="text" name="username" value="<?php
@@ -22,8 +23,10 @@
     <input type="text" name="topUp" placeholder="Topup Amount(£)"><br>
     <button type ="submit">Confirm</button>
   </form>
-  Note: You will have to logout and back in for the new credit to show.
+
 </article>
+</div>
+  <p id="notice">Note: You will have to logout and back in for the new credit to show.</p>
 
 
 

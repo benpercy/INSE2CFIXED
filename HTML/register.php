@@ -1,8 +1,10 @@
 <?php
   include 'header.php';
  ?>
+ <p id="notice">Please enter your details below and click "Register".</p>
+ <div style="width: 300px; margin: 0 auto;">
         <article>
-          <form action="includes/signup.inc.php" method="POST">
+          <form action="includes/signup.inc.php" class="registerForm" method="POST">
             <input type="text" name="title" placeholder="Title"><br>
             <input type="text" name="first" placeholder="Firstname"><br>
             <input type="text" name="last" placeholder="Lastname"><br>
@@ -15,16 +17,7 @@
 
           </form>
         </article>
-    </section>
-
-<?php
-if (isset($_SESSION['id'])) {
-  echo $_SESSION['id'];
-} else {
-  echo "You are not logged in";
-}
-?>
-
+</div>
     <footer>
         <small>&copy; Copyright 2017. Group 2C - Designed & produced by 773455.</small>
     </footer>

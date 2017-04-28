@@ -15,7 +15,8 @@
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/login.css">
-    <link rel="icon" href="images/favicon.png">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 
 
     <!-- Fonts -->
@@ -31,8 +32,6 @@
           <button type ="submit">Login</button>
         </form>
 
-
-
         <div align="right">
           <div style="margin-top:-33px;margin-right:10px;">
           <form action="includes/logout.inc.php" method="POST">
@@ -40,7 +39,7 @@
           </form>
           <?php
           if (isset($_SESSION['id'])) {
-            echo "Welcome back <b>". $_SESSION['username'] . "</b>! Account credit: <b>". $_SESSION['credit']."</b>.";
+            echo "Welcome back <b>". $_SESSION['username'] . "</b>! Account credit: £<b>". $_SESSION['credit']."</b>.";
           } else {
             echo "You are not logged in";
           }
@@ -53,7 +52,7 @@
           <ul>
             <li><a href="mens.php">Mens</a></li>
             <li><a href="womans.php">Womans</a></li>
-            <li><a href="accessories.php">Accessories</a></li>
+            <li><a href="register.php">Register</a></li>
           </ul>
 
           <a href="cart.php"><img class="right" src="images/cart.png"/></a>

@@ -2,6 +2,11 @@
   text-decoration: none;
   font-family: 'Source Sans Pro';
 }
+#notice {
+  font-size: 1.2em;
+  color: white;
+  text-align: center;
+}
 .images{
   margin-left: auto;
   margin-right: auto;
@@ -10,6 +15,10 @@
   text-align: center;
 }
 .topupTable input[type=text], .topupTable input[type=password], .topupTable input[type=submit] {
+  font-size: 1.4em;
+  text-align:center;
+}
+.registerForm input[type=text], .registerForm input[type=password], .registerForm input[type=submit] {
   font-size: 1.4em;
   text-align:center;
 }

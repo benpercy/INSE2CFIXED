@@ -8,7 +8,7 @@
   <table class="images">
     <tr>
       <td>
-      <img src="images/Female dress 1.jpg" alt="Home1" style="width:304px;height:228px;"/>
+      <a href="femaleDress1.php"><img src="images/Female dress 1.jpg" alt="Home1" style="width:304px;height:228px;"/></a>
       </td>
       <td>
       <img src= "images/Female dress2.jpg" alt="Home2" style="width:304px;height:228px;"/>
