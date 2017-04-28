@@ -19,9 +19,9 @@ Update logs can be viewed by checking the HTML branch repository history.
 
 # TODO:
 - Make ATLEAST the first 4 homepage products work
-- If not enough credit, don't sell
-- If topup amount is greater than £1000, don't allow (don't allow negatives)
-- Top-up validation (16 digit card, password, 3 digit SC, checkbox)
+- ~~If not enough credit, don't sell~~
+- ~~If topup amount is greater than £1000, don't allow (don't allow negatives)~~
+- ~~Top-up validation (16 digit card, password, 3 digit SC, checkbox)~~
 
 # LOOK INTO:
 - Add a cart page with current user session products (eh?) (ability to multiple order)
