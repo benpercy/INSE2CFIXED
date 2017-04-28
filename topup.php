@@ -18,9 +18,10 @@
     }
     ?>" readonly><br>
     <input type="password" name="pass" placeholder="Password"><br>
-    <input type="text" name="cardNo" placeholder="Credit/Debt Card #"><br>
-    <input type="text" name="cardSecurity" placeholder="Card Security #"><br>
+    <input type="text" name="cardNo" placeholder="16 Digit Credit/Debt Card #"><br>
+    <input type="text" name="cardSecurity" placeholder="3 Digit Card Security #"><br>
     <input type="text" name="topUp" placeholder="Topup Amount(£)"><br>
+    Accept T&Cs<input type="checkbox" name="check" value="value1">
     <button type ="submit">Confirm</button>
   </form>
 

@@ -5,13 +5,13 @@
   <table class="images">
       <tr>
 	<td>
-	<img src="images/Female dress 1.jpg" alt="Dress1" style="width:304px;height:228px;"><br>
+	<a href="femaleDress1.php"><img src="images/Female dress 1.jpg" alt="Dress1" style="width:304px;height:228px;"><br>
 	 White and brown patterned midi length dress - £18.99
-	</td>
+ </a></td>
       	<td>
-	<img src="images/Female dress2.jpg" alt="Dress2" style="width:304px;height:228px;"/><br>
+	<a href="femaleDress2.php"><img src="images/Female dress2.jpg" alt="Dress2" style="width:304px;height:228px;"/><br>
 	  Stripped dress, pink, white, blue - £10.00
-	</td>
+	</a></td>
 	</tr>
 	<tr>
 	<td>

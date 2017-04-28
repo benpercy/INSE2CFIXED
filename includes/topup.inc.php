@@ -18,6 +18,15 @@ if($topUp < 0 || $topUp > 1000){
 }else if ($pass != $confPass){
   echo 'Incorrect password entered!';
   echo "<script>setTimeout(\"location.href = '../index.php';\",2000);</script>";
+}else if (strlen($cardNo) != 16){
+  echo 'Incorrect card number entered!';
+  echo "<script>setTimeout(\"location.href = '../index.php';\",2000);</script>";
+}else if (strlen($cardSec) != 3){
+  echo 'Incorrect card security number entered!';
+  echo "<script>setTimeout(\"location.href = '../index.php';\",2000);</script>";
+}else if (!isset($_POST['check'])){
+  echo 'Terms and conditions not accepted! Top up unsuccessful!';
+  echo "<script>setTimeout(\"location.href = '../index.php';\",3000);</script>";
 }else{
   $sql = "UPDATE Customer SET AccountCredit=AccountCredit+'$topUp' WHERE idCustomer='$id';";
   $result = mysqli_query($conn, $sql);

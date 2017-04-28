@@ -36,13 +36,13 @@
 	</tr>
 	<tr>
 	<td>
-	<img src="images/Male polo.jpg" alt="Polo" style="width:304px;height:228px;"/><br>
+	<a href="malePolo.php"><img src="images/Male polo.jpg" alt="Polo" style="width:304px;height:228px;"/><br>
 	 Grey polo with pocket - £15.00
-	</td>
+ </a></td>
       	<td>
-	<img src="images/Male shirt1.jpg" alt="shirt1" style="width:304px;height:228px;"/><br>
+	<a href="maleShirt1.php"><img src="images/Male shirt1.jpg" alt="shirt1" style="width:304px;height:228px;"/><br>
 	 White with black strips - £35.99
-	</td>
+ </a></td>
 	</tr>
 	<table class="images">
       <tr>

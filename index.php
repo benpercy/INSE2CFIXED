@@ -11,15 +11,15 @@
       <a href="femaleDress1.php"><img src="images/Female dress 1.jpg" alt="Home1" style="width:304px;height:228px;"/></a>
       </td>
       <td>
-      <img src= "images/Female dress2.jpg" alt="Home2" style="width:304px;height:228px;"/>
+      <a href="femaleDress2.php"><img src= "images/Female dress2.jpg" alt="Home2" style="width:304px;height:228px;"/></a>
       </td>
       </tr>
       <tr>
       <td>
-      <img src="images/Male polo.jpg" alt="Home3" style="width:304px;height:228px;"/>
+      <a href="malePolo.php"><img src="images/Male polo.jpg" alt="Home3" style="width:304px;height:228px;"/></a>
       </td>
       <td>
-      <img src="images/Male shirt1.jpg" alt="Home4" style="width:304px;height:228px;"/>
+      <a href="maleShirt1.php"><img src="images/Male shirt1.jpg" alt="Home4" style="width:304px;height:228px;"/></a>
       </td>
       </tr>
   </table>
