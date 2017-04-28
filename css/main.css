@@ -1,0 +1,93 @@
+* {
+  text-decoration: none;
+  font-family: 'Source Sans Pro';
+}
+#notice {
+  font-size: 1.2em;
+  color: white;
+  text-align: center;
+}
+.images{
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.4em;
+  background-color: white;
+  text-align: center;
+}
+.topupTable input[type=text], .topupTable input[type=password], .topupTable input[type=submit] {
+  font-size: 1.4em;
+  text-align:center;
+}
+.registerForm input[type=text], .registerForm input[type=password], .registerForm input[type=submit] {
+  font-size: 1.4em;
+  text-align:center;
+}
+.images td{
+  border: 2px solid #000;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+body{
+  width: 70%;
+  margin: 20px auto;
+  background-color: #2BADD8;
+}
+
+header{
+  background-color: #222222;
+  color: #fff;
+  font-size: 20px;
+  width: 100%;
+  height: 90px;
+}
+
+header form {
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+footer{
+  bottom: 0;
+  position: fixed;
+  width: 70%;
+  text-align: center;
+}
+
+nav{
+  padding-top: 1em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  background-color: #f1f1f1;
+}
+
+nav li a {
+  display: block;
+  color: #000;
+  padding: 15px 16px;
+}
+
+nav li a:hover{
+  background-color: #555;
+  color: white;
+}
+
+.images img{
+  width: 250px;
+  height: 250px;
+  display: inline;
+}
+
+.right{
+  float: right;
+}
+
+#left{
+  font-size: 30px;
+  color: black;
+}
