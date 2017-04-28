@@ -2,14 +2,21 @@
   text-decoration: none;
   font-family: 'Source Sans Pro';
 }
-.images
-{
+.images{
   margin-left: auto;
   margin-right: auto;
+  font-size: 1.4em;
+  background-color: white;
+  text-align: center;
 }
-.images td
-{
+.topupTable input[type=text], .topupTable input[type=password], .topupTable input[type=submit] {
+  font-size: 1.4em;
+  text-align:center;
+}
+.images td{
   border: 2px solid #000;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 body{

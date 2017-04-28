@@ -1,40 +1,29 @@
 <?php
-  session_start();
+  include 'header.php';
  ?>
 
-<!doctype html>
-<html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>UniTrend - TopUp</title>
-
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="icon" href="images/favicon.png">
-
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="css/main.css" type="text/css" href="main.css">
 </head>
 
-<body>
-    <header>
-        <a class="headerImgA" href="index.html"><img src="images/banner.png" class="headerImg"></a>
-        <div id="topbar">
-            <a class="alignleft" href="topup.html">$</a>
-            <a class="aligncenter" href="login.html">Login</a>
-            <a class="alignright" href="cart.html">Cart</a>
-        </div>
-    </header>
 
-    <ul>
-        <li><a href="products/mens/">Mens</a></li>
-        <li><a href="products/womans/">Womans</a></li>
-        <li><a href="products/accessories/">Accessories</a></li>
-    </ul>
+<article>
+  <form action="includes/topup.inc.php" class="topupTable" method="POST">
+    <input type="text" name="username" value="<?php
+    if (isset($_SESSION['id'])) {
+      echo $_SESSION['username'];
+    } else {
+      echo "ERROR!";
+    }
+    ?>" readonly><br>
+    <input type="password" name="pass" placeholder="Password"><br>
+    <input type="text" name="cardNo" placeholder="Credit/Debt Card #"><br>
+    <input type="text" name="cardSecurity" placeholder="Card Security #"><br>
+    <input type="text" name="topUp" placeholder="Topup Amount(£)"><br>
+    <button type ="submit">Confirm</button>
+  </form>
+  Note: You will have to logout and back in for the new credit to show.
+</article>
 
 
 
@@ -44,8 +33,6 @@
         <small>&copy; Copyright 2017. Group 2C - Designed & produced by 773455.</small>
     </footer>
 
-
-    <script src="js/scripts.js"></script>
 </body>
 
 </html>

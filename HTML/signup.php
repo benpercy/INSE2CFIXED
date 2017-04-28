@@ -14,7 +14,7 @@ if (isset($_SESSION['id'])) {
 <section>
   <article>
     <br><br><br>
-    <form action="includes/logout.inc.php">
+    <form action="includes/logout.inc.php" method="POST">
       <button>Log Out</button>
     </form>
   </article>

@@ -29,14 +29,29 @@
           <input type="text" name="username" placeholder="Username"><br>
           <input type="password" name="pass" placeholder="Password"><br>
           <button type ="submit">Login</button>
-        </form><div align="right">
-        <a href="index.php"><img src="images/banner.png"/></a></div>
-</header>
+        </form>
+
+
+
+        <div align="right">
+          <div style="margin-top:-33px;margin-right:10px;">
+          <form action="includes/logout.inc.php" method="POST">
+            <button>Log Out</button>
+          </form>
+          <?php
+          if (isset($_SESSION['id'])) {
+            echo "Welcome back <b>". $_SESSION['username'] . "</b>! Account credit: <b>". $_SESSION['credit']."</b>.";
+          } else {
+            echo "You are not logged in";
+          }
+          ?></div>
+                <a href="index.php"><img src="images/banner.png"/></a></div>
+        </header>
 
 
         <nav>
           <ul>
-            <li><a href="index.php">Mens</a></li>
+            <li><a href="mens.php">Mens</a></li>
             <li><a href="womans.php">Womans</a></li>
             <li><a href="accessories.php">Accessories</a></li>
           </ul>

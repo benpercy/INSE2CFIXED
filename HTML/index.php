@@ -5,24 +5,13 @@
 <head>
     <link rel="css/main.css" type="text/css" href="main.css">
 </head>
-<h1>this is the index page</h1>
-
-<?php
-if (isset($_SESSION['id'])) {
-  echo "You are logged in, your ID is: ". $_SESSION['id'];
-} else {
-  echo "You are not logged in";
-}
-?>
-
-
   <table class="images">
     <tr>
       <td>
       <img src="images/Female dress 1.jpg" alt="Home1" style="width:304px;height:228px;"/>
       </td>
       <td>
-      <img src= "images/Female dress 2.jpg" alt="Home2" style="width:304px;height:228px;"/>
+      <img src= "images/Female dress2.jpg" alt="Home2" style="width:304px;height:228px;"/>
       </td>
       </tr>
       <tr>
